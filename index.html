@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khawaja Adeel Ahmed — Scrum Master & PM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">KAA</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Available for new opportunities
+      </div>
+      <h1 class="hero-title">
+        Khawaja<br />
+        <span class="accent">Adeel Ahmed</span>
+      </h1>
+      <p class="hero-sub">PM · CSPO · SFC</p>
+      <p class="hero-desc">
+        Certified Scrum Master & Product Owner driving high-velocity Agile teams.<br />
+        Turning complex requirements into shipped products.
+      </p>
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary">View Experience</a>
+        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+      </div>
+
+      <!-- Sprint cycle graphic -->
+      <div class="sprint-ring" aria-hidden="true">
+        <svg viewBox="0 0 320 320" class="sprint-svg">
+          <defs>
+            <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <!-- Outer track -->
+          <circle cx="160" cy="160" r="140" fill="none" stroke="#1E2D4A" stroke-width="2"/>
+          <!-- Animated arc -->
+          <circle cx="160" cy="160" r="140" fill="none"
+            stroke="url(#ringGrad)" stroke-width="3"
+            stroke-dasharray="660" stroke-dashoffset="660"
+            class="ring-arc" stroke-linecap="round"/>
+          <!-- Inner ring -->
+          <circle cx="160" cy="160" r="110" fill="none" stroke="#1E2D4A" stroke-width="1" stroke-dasharray="4 8"/>
+
+          <!-- Sprint labels -->
+          <text x="160" y="30" text-anchor="middle" class="ring-label">PLAN</text>
+          <text x="290" y="170" text-anchor="start" class="ring-label">SPRINT</text>
+          <text x="160" y="305" text-anchor="middle" class="ring-label">REVIEW</text>
+          <text x="10" y="170" text-anchor="end" class="ring-label">RETRO</text>
+
+          <!-- Center -->
+          <circle cx="160" cy="160" r="70" fill="#0D1F38"/>
+          <text x="160" y="153" text-anchor="middle" class="ring-center-top">AGILE</text>
+          <text x="160" y="173" text-anchor="middle" class="ring-center-bot">DELIVERY</text>
+
+          <!-- Dots on track -->
+          <circle cx="160" cy="20" r="6" fill="#3B82F6" class="dot-pulse"/>
+          <circle cx="300" cy="160" r="6" fill="#8B5CF6" class="dot-pulse" style="animation-delay:.4s"/>
+          <circle cx="160" cy="300" r="6" fill="#3B82F6" class="dot-pulse" style="animation-delay:.8s"/>
+          <circle cx="20" cy="160" r="6" fill="#8B5CF6" class="dot-pulse" style="animation-delay:1.2s"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">6+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">5+</span>
+        <span class="stat-label">Agile Teams Led</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">Projects Shipped</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Certifications</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">WHO I AM</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">Agile leader who<br /><span class="accent">ships outcomes</span>,<br />not just stories.</h2>
+        </div>
+        <div class="about-right">
+          <p>Versatile and technically sophisticated professional with proven expertise in end-to-end project management, advanced Scrum facilitation, and strategic product ownership.</p>
+          <p>I accelerate velocity, support cross-functional alignment, and deliver high-value outcomes — managing risk, enabling transparent reporting, and coaching teams to Agile maturity.</p>
+          <div class="certs">
+            <div class="cert-badge">
+              <div class="cert-icon">🏅</div>
+              <div>
+                <div class="cert-name">CSPO</div>
+                <div class="cert-full">Certified Scrum Product Owner</div>
+              </div>
+            </div>
+            <div class="cert-badge">
+              <div class="cert-icon">🎯</div>
+              <div>
+                <div class="cert-name">SFC™</div>
+                <div class="cert-full">Scrum Fundamentals Certified</div>
+              </div>
+            </div>
+            <div class="cert-badge">
+              <div class="cert-icon">⚡</div>
+              <div>
+                <div class="cert-name">Six Sigma</div>
+                <div class="cert-full">Yellow Belt</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-dark" id="experience">
+    <div class="container">
+      <div class="section-label">CAREER TIMELINE</div>
+      <h2 class="section-title">Professional <span class="accent">Experience</span></h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item" data-anim>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jan 2025 – Present</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Scrum Master</div>
+                <div class="tl-company">AIO — Islamabad</div>
+              </div>
+              <span class="tl-tag">Current</span>
+            </div>
+            <p class="tl-desc">Leading 5–6 cross-functional squads delivering AIOAPP.com — a SaaS-based workforce management, automation, and AI-driven productivity platform.</p>
+            <ul class="tl-wins">
+              <li>Delivered QR ordering, digital menus, and online storefront modules</li>
+              <li>Built LLM-driven restaurant sales bots and HR/IT automation workflows</li>
+              <li>Integrated Jira/Confluence dashboards for workforce scheduling modules</li>
+              <li>Embedded SAFe practices across multi-team SaaS delivery</li>
+            </ul>
+            <div class="tl-tags">
+              <span>SAFe</span><span>SaaS</span><span>LLM Bots</span><span>Jira</span><span>Confluence</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jan 2023 – Dec 2024</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Project Manager</div>
+                <div class="tl-company">Code Fuse — London</div>
+              </div>
+            </div>
+            <p class="tl-desc">Translated complex client needs into structured product roadmaps, actionable user stories, and clear delivery milestones across multi-application ecosystems.</p>
+            <ul class="tl-wins">
+              <li>Acted as Product Owner for CRM and food-delivery platforms</li>
+              <li>Reduced cycle time via standardized release process across all components</li>
+              <li>Converted multi-app requirements into roadmaps covering CRM, customer & delivery apps</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Product Ownership</span><span>CRM</span><span>Roadmapping</span><span>Agile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jul 2023 – Feb 2024</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Senior Associate Scrum Master</div>
+                <div class="tl-company">Prismware Technologies — Canada</div>
+              </div>
+            </div>
+            <p class="tl-desc">Maintained sprint direction and backlog readiness, ensuring demand-driven prioritization and ceremony discipline across global teams.</p>
+            <ul class="tl-wins">
+              <li>Improved sprint commitment reliability through capacity-based planning</li>
+              <li>Elevated psychological safety and team engagement</li>
+              <li>Strengthened stakeholder alignment via structured increment reviews</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Scrum</span><span>Backlog Refinement</span><span>Stakeholder Mgmt</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">May 2022 – Jul 2023</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Project Manager & Scrum Master</div>
+                <div class="tl-company">Code Experts Ltd — Islamabad</div>
+              </div>
+            </div>
+            <p class="tl-desc">Enabled stable delivery across LMS and Dental Clinic platforms by protecting teams, resolving conflicts, and reinforcing Agile discipline.</p>
+            <ul class="tl-wins">
+              <li>Designed metrics-driven reporting framework tracking sprint health & release readiness</li>
+              <li>Boosted ceremony effectiveness across two concurrent product lines</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Dual-Track PM</span><span>LMS</span><span>Metrics</span><span>Coaching</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-anim>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Feb 2020 – Oct 2022</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Technical Consultant (Scrum)</div>
+                <div class="tl-company">Getz Clinical — Australia (Remote)</div>
+              </div>
+            </div>
+            <p class="tl-desc">Supported delivery across global clinical teams, driving Scrum ceremonies and ensuring product stability through comprehensive QA cycles.</p>
+            <ul class="tl-wins">
+              <li>Delivered 24/7 technical assistance across international client sites</li>
+              <li>Executed comprehensive QA: white/black-box, regression, load, security testing</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Remote</span><span>QA</span><span>Clinical Systems</span><span>SDLC</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">WHAT I'VE BUILT</div>
+      <h2 class="section-title">Notable <span class="accent">Projects</span></h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card featured" data-anim>
+          <div class="project-tag">SaaS Platform</div>
+          <h3>AIOapp.com</h3>
+          <p>Workforce & Operations Platform — scheduling, attendance, contractor workflows, AI automation, POS integration, and restaurant management modules.</p>
+          <div class="project-stack">
+            <span>Workforce Mgmt</span><span>AI Bots</span><span>POS</span><span>SAFe</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-anim>
+          <div class="project-tag">Food Tech</div>
+          <h3>KOOR</h3>
+          <p>Full food-delivery ecosystem with customer, rider, and kitchen apps — real-time ordering, status tracking, and menu management.</p>
+          <div class="project-stack">
+            <span>Real-time</span><span>Multi-app</span><span>React</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-anim>
+          <div class="project-tag">CRM</div>
+          <h3>Bigin Clone CRM</h3>
+          <p>Custom CRM with pipelines, deals, activities, contact hierarchy, and workflow automation. Pipeline dashboards and deal-stage automation.</p>
+          <div class="project-stack">
+            <span>CRM</span><span>Automation</span><span>Pipelines</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-anim>
+          <div class="project-tag">EdTech</div>
+          <h3>Learning Management System</h3>
+          <p>Multi-subject LMS enabling online education for all ages with intuitive UX and progress tracking. Scalable course delivery tools.</p>
+          <div class="project-stack">
+            <span>EdTech</span><span>UX</span><span>Scalable</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-anim>
+          <div class="project-tag">FinTech</div>
+          <h3>PASSCIMFAS</h3>
+          <p>Adaptive financial exam prep portal for CMFAS, insurance, and regulatory certifications with optimized content delivery and assessments.</p>
+          <div class="project-stack">
+            <span>Adaptive Learning</span><span>Analytics</span><span>Certifications</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-anim>
+          <div class="project-tag">Consumer App</div>
+          <h3>Dress Code Finder</h3>
+          <p>Venue-specific dress-code engine covering 100,000+ locations. Reduced lookup time by 40% through streamlined data extraction and categorization.</p>
+          <div class="project-stack">
+            <span>100K+ locations</span><span>Search</span><span>UX</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-label">TOOLKIT</div>
+      <h2 class="section-title">Skills & <span class="accent">Proficiencies</span></h2>
+
+      <div class="skills-grid">
+        <div class="skill-group" data-anim>
+          <div class="skill-group-icon">🎯</div>
+          <h4>Agile & Frameworks</h4>
+          <div class="skill-pills">
+            <span>Scrum</span><span>SAFe</span><span>Kanban</span><span>Hybrid</span><span>Sprint Planning</span><span>Retrospectives</span>
+          </div>
+        </div>
+        <div class="skill-group" data-anim>
+          <div class="skill-group-icon">📦</div>
+          <h4>Product & Delivery</h4>
+          <div class="skill-pills">
+            <span>Backlog Refinement</span><span>Roadmapping</span><span>Release Mgmt</span><span>SDLC</span><span>User Stories</span>
+          </div>
+        </div>
+        <div class="skill-group" data-anim>
+          <div class="skill-group-icon">🛠️</div>
+          <h4>PM Tools</h4>
+          <div class="skill-pills">
+            <span>Jira</span><span>Confluence</span><span>Trello</span><span>Asana</span><span>ClickUp</span><span>Azure DevOps</span><span>Monday.com</span>
+          </div>
+        </div>
+        <div class="skill-group" data-anim>
+          <div class="skill-group-icon">📊</div>
+          <h4>Analytics & Reporting</h4>
+          <div class="skill-pills">
+            <span>Power BI</span><span>Tableau</span><span>Excel (Advanced)</span><span>Google Analytics</span>
+          </div>
+        </div>
+        <div class="skill-group" data-anim>
+          <div class="skill-group-icon">🤝</div>
+          <h4>Leadership</h4>
+          <div class="skill-pills">
+            <span>Team Coaching</span><span>Stakeholder Mgmt</span><span>Risk Mitigation</span><span>Cross-functional Alignment</span>
+          </div>
+        </div>
+        <div class="skill-group" data-anim>
+          <div class="skill-group-icon">💻</div>
+          <h4>Technical</h4>
+          <div class="skill-pills">
+            <span>REST APIs</span><span>Postman</span><span>Git</span><span>CI/CD (Basic)</span><span>Figma</span><span>Miro</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-label">GET IN TOUCH</div>
+      <h2 class="section-title">Let's build something<br /><span class="accent">great together.</span></h2>
+      <p class="contact-sub">Open to Scrum Master, Project Manager, and Product Owner roles.</p>
+
+      <div class="contact-cards">
+        <a href="mailto:khawajaadeel98@gmail.com" class="contact-card">
+          <div class="contact-card-icon">✉️</div>
+          <div class="contact-card-label">Email</div>
+          <div class="contact-card-value">khawajaadeel98@gmail.com</div>
+        </a>
+        <a href="tel:03009845410" class="contact-card">
+          <div class="contact-card-icon">📞</div>
+          <div class="contact-card-label">Phone</div>
+          <div class="contact-card-value">0300-9845410</div>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card-icon">💼</div>
+          <div class="contact-card-label">LinkedIn</div>
+          <div class="contact-card-value">Connect with me</div>
+        </a>
+        <div class="contact-card">
+          <div class="contact-card-icon">📍</div>
+          <div class="contact-card-label">Location</div>
+          <div class="contact-card-value">Islamabad, Pakistan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2025 Khawaja Adeel Ahmed</span>
+      <span>PM · CSPO · SFC</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
